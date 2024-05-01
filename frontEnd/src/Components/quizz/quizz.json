@@ -1,0 +1,513 @@
+{
+  "quiz": [
+    {
+      "question": "What is your favorite book?",
+      "choices": [
+        "A. Harry Potter series by J.K. Rowling",
+        "B. To Kill a Mockingbird by Harper Lee",
+        "C. The Great Gatsby by F. Scott Fitzgerald",
+        "D. Pride and Prejudice by Jane Austen"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Who is your favorite author?",
+      "choices": [
+        "A. Stephen King",
+        "B. J.K. Rowling",
+        "C. Agatha Christie",
+        "D. Ernest Hemingway"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What book has had the biggest impact on your life?",
+      "choices": [
+        "A. The Alchemist by Paulo Coelho",
+        "B. 1984 by George Orwell",
+        "C. Tuesdays with Morrie by Mitch Albom",
+        "D. The Catcher in the Rye by J.D. Salinger"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What genre do you enjoy reading the most?",
+      "choices": [
+        "A. Fantasy",
+        "B. Mystery",
+        "C. Romance",
+        "D. Science Fiction"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you prefer fiction or non-fiction books?",
+      "choices": [
+        "A. Fiction",
+        "B. Non-fiction"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book are you currently reading?",
+      "choices": [
+        "A. The Girl on the Train by Paula Hawkins",
+        "B. Educated by Tara Westover",
+        "C. The Silent Patient by Alex Michaelides",
+        "D. Where the Crawdads Sing by Delia Owens"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What book are you most excited to read next?",
+      "choices": [
+        "A. The Night Circus by Erin Morgenstern",
+        "B. The Song of Achilles by Madeline Miller",
+        "C. Circe by Madeline Miller",
+        "D. The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Have you ever read a book that changed your perspective on something?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you prefer to read physical books or ebooks?",
+      "choices": [
+        "A. Physical books",
+        "B. Ebooks"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book character do you relate to the most?",
+      "choices": [
+        "A. Harry Potter (Harry Potter series)",
+        "B. Elizabeth Bennet (Pride and Prejudice)",
+        "C. Katniss Everdeen (The Hunger Games)",
+        "D. Sherlock Holmes (Sherlock Holmes series)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What book would you recommend to someone who doesn't usually enjoy reading?",
+      "choices": [
+        "A. The Hobbit by J.R.R. Tolkien",
+        "B. The Martian by Andy Weir",
+        "C. The Book Thief by Markus Zusak",
+        "D. The Harry Potter series by J.K. Rowling"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What book do you think everyone should read at least once?",
+      "choices": [
+        "A. To Kill a Mockingbird by Harper Lee",
+        "B. 1984 by George Orwell",
+        "C. Pride and Prejudice by Jane Austen",
+        "D. The Catcher in the Rye by J.D. Salinger"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the longest book you've ever read?",
+      "choices": [
+        "A. War and Peace by Leo Tolstoy",
+        "B. Atlas Shrugged by Ayn Rand",
+        "C. Les Misérables by Victor Hugo",
+        "D. Infinite Jest by David Foster Wallace"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the shortest book you've ever read?",
+      "choices": [
+        "A. Animal Farm by George Orwell",
+        "B. The Old Man and the Sea by Ernest Hemingway",
+        "C. Of Mice and Men by John Steinbeck",
+        "D. The Metamorphosis by Franz Kafka"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Do you prefer series or standalone books?",
+      "choices": [
+        "A. Series",
+        "B. Standalone books"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best cover design?",
+      "choices": [
+        "A. The Night Circus by Erin Morgenstern",
+        "B. Circe by Madeline Miller",
+        "C. The Goldfinch by Donna Tartt",
+        "D. The Secret History by Donna Tartt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Have you ever read a book that made you cry?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you prefer to read books in their original language or translated?",
+      "choices": [
+        "A. Original language",
+        "B. Translated"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you wish you could read again for the first time?",
+      "choices": [
+        "A. Harry Potter and the Philosopher's Stone by J.K. Rowling",
+        "B. The Hobbit by J.R.R. Tolkien",
+        "C. The Catcher in the Rye by J.D. Salinger",
+        "D. The Great Gatsby by F. Scott Fitzgerald"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book have you read multiple times?",
+      "choices": [
+        "A. Pride and Prejudice by Jane Austen",
+        "B. The Harry Potter series by J.K. Rowling",
+        "C. The Lord of the Rings trilogy by J.R.R. Tolkien",
+        "D. Jane Eyre by Charlotte Brontë"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What book disappointed you the most?",
+      "choices": [
+        "A. The Goldfinch by Donna Tartt",
+        "B. The Girl on the Train by Paula Hawkins",
+        "C. Allegiant by Veronica Roth",
+        "D. Fifty Shades of Grey by E.L. James"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What book surprised you the most?",
+      "choices": [
+        "A. Gone Girl by Gillian Flynn",
+        "B. The Night Circus by Erin Morgenstern",
+        "C. Ready Player One by Ernest Cline",
+        "D. The Hunger Games by Suzanne Collins"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you judge a book by its cover?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think is underrated?",
+      "choices": [
+        "A. Never Let Me Go by Kazuo Ishiguro",
+        "B. Station Eleven by Emily St. John Mandel",
+        "C. The Night Circus by Erin Morgenstern",
+        "D. The Secret History by Donna Tartt"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What book do you think is overrated?",
+      "choices": [
+        "A. Twilight by Stephenie Meyer",
+        "B. The Catcher in the Rye by J.D. Salinger",
+        "C. The Great Gatsby by F. Scott Fitzgerald",
+        "D. The Da Vinci Code by Dan Brown"
+      ],
+      "answer": "A"
+    },
+    
+    {
+      "question": "What book has the best ending?",
+      "choices": [
+        "A. Gone Girl by Gillian Flynn",
+        "B. The Book Thief by Markus Zusak",
+        "C. The Great Gatsby by F. Scott Fitzgerald",
+        "D. Nineteen Eighty-Four by George Orwell"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What book do you wish had a sequel?",
+      "choices": [
+        "A. The Night Circus by Erin Morgenstern",
+        "B. Eleanor Oliphant Is Completely Fine by Gail Honeyman",
+        "C. The Help by Kathryn Stockett",
+        "D. The Kite Runner by Khaled Hosseini"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book would you like to see adapted into a movie or TV show?",
+      "choices": [
+        "A. The Night Circus by Erin Morgenstern",
+        "B. The Name of the Wind by Patrick Rothfuss",
+        "C. The Shadow of the Wind by Carlos Ruiz Zafón",
+        "D. The Secret History by Donna Tartt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you have a favorite bookstore?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book are you embarrassed to admit you haven't read yet?",
+      "choices": [
+        "A. 1984 by George Orwell",
+        "B. The Lord of the Rings trilogy by J.R.R. Tolkien",
+        "C. The Catcher in the Rye by J.D. Salinger",
+        "D. Pride and Prejudice by Jane Austen"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you annotate or highlight your books?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best world-building?",
+      "choices": [
+        "A. The Lord of the Rings trilogy by J.R.R. Tolkien",
+        "B. A Song of Ice and Fire series by George R.R. Martin",
+        "C. Harry Potter series by J.K. Rowling",
+        "D. Mistborn series by Brandon Sanderson"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the most memorable setting?",
+      "choices": [
+        "A. Wuthering Heights by Emily Brontë",
+        "B. The Night Circus by Erin Morgenstern",
+        "C. The Hobbit by J.R.R. Tolkien",
+        "D. The Road by Cormac McCarthy"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Do you have a favorite literary quote?",
+      "choices": [
+        "A. Yes",
+        "B. No"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best villain?",
+      "choices": [
+        "A. The Harry Potter series by J.K. Rowling",
+        "B. The Lord of the Rings trilogy by J.R.R. Tolkien",
+        "C. Gone Girl by Gillian Flynn",
+        "D. A Song of Ice and Fire series by George R.R. Martin"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best hero/heroine?",
+      "choices": [
+        "A. To Kill a Mockingbird by Harper Lee",
+        "B. The Hunger Games by Suzanne Collins",
+        "C. Pride and Prejudice by Jane Austen",
+        "D. The Catcher in the Rye by J.D. Salinger"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think has the best plot twist?",
+      "choices": [
+        "A. Gone Girl by Gillian Flynn",
+        "B. The Girl with the Dragon Tattoo by Stieg Larsson",
+        "C. And Then There Were None by Agatha Christie",
+        "D. The Sixth Sense by M. Night Shyamalan"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best romance?",
+      "choices": [
+        "A. Pride and Prejudice by Jane Austen",
+        "B. The Notebook by Nicholas Sparks",
+        "C. Me Before You by Jojo Moyes",
+        "D. Outlander by Diana Gabaldon"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Do you prefer happy endings or bittersweet endings?",
+      "choices": [
+        "A. Happy endings",
+        "B. Bittersweet endings"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the most beautiful prose?",
+      "choices": [
+        "A. The Great Gatsby by F. Scott Fitzgerald",
+        "B. Lolita by Vladimir Nabokov",
+        "C. Beloved by Toni Morrison",
+        "D. The Catcher in the Rye by J.D. Salinger"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think deserves more recognition?",
+      "choices": [
+        "A. Station Eleven by Emily St. John Mandel",
+        "B. The Book Thief by Markus Zusak",
+        "C. The Night Circus by Erin Morgenstern",
+        "D. The Secret History by Donna Tartt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think everyone should read in school?",
+      "choices": [
+        "A. To Kill a Mockingbird by Harper Lee",
+        "B. 1984 by George Orwell",
+        "C. The Great Gatsby by F. Scott Fitzgerald",
+        "D. Lord of the Flies by William Golding"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best character development?",
+      "choices": [
+        "A. Jane Eyre by Charlotte Brontë",
+        "B. Great Expectations by Charles Dickens",
+        "C. The Kite Runner by Khaled Hosseini",
+        "D. The Goldfinch by Donna Tartt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think is the most important to read for personal growth?",
+      "choices": [
+        "A. Man's Search for Meaning by Viktor E. Frankl",
+        "B. The Power of Now by Eckhart Tolle",
+        "C. The Subtle Art of Not Giving a F*ck by Mark Manson",
+        "D. Mindset: The New Psychology of Success by Carol S. Dweck"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think is the most challenging to read?",
+      "choices": [
+        "A. Ulysses by James Joyce",
+        "B. Infinite Jest by David Foster Wallace",
+        "C. Gravity's Rainbow by Thomas Pynchon",
+        "D. The Sound and the Fury by William Faulkner"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best action scenes?",
+      "choices": [
+        "A. The Hunger Games by Suzanne Collins",
+        "B. The Lord of the Rings trilogy by J.R.R. Tolkien",
+        "C. The Girl with the Dragon Tattoo by Stieg Larsson",
+        "D. Ready Player One by Ernest Cline"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think is the most thought-provoking?",
+      "choices": [
+        "A. 1984 by George Orwell",
+        "B. Brave New World by Aldous Huxley",
+        "C. Fahrenheit 451 by Ray Bradbury",
+        "D. Slaughterhouse-Five by Kurt Vonnegut"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book would you recommend for someone going through a tough time?",
+      "choices": [
+        "A. The Bell Jar by Sylvia Plath",
+        "B. When Breath Becomes Air by Paul Kalanithi",
+        "C. Wild: From Lost to Found on the Pacific Crest Trail by Cheryl Strayed",
+        "D. The Road Less Traveled by M. Scott Peck"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book do you think has the best dialogue?",
+      "choices": [
+        "A. Pride and Prejudice by Jane Austen",
+        "B. The Catcher in the Rye by J.D. Salinger",
+        "C. Gone Girl by Gillian Flynn",
+        "D. The Fault in Our Stars by John Green"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the most memorable quotes?",
+      "choices": [
+        "A. The Catcher in the Rye by J.D. Salinger",
+        "B. 1984 by George Orwell",
+        "C. Pride and Prejudice by Jane Austen",
+        "D. To Kill a Mockingbird by Harper Lee"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the most beautiful cover art?",
+      "choices": [
+        "A. The Night Circus by Erin Morgenstern",
+        "B. Circe by Madeline Miller",
+        "C. The Goldfinch by Donna Tartt",
+        "D. The Secret History by Donna Tartt"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the most memorable title?",
+      "choices": [
+        "A. The Catcher in the Rye by J.D. Salinger",
+        "B. One Hundred Years of Solitude by Gabriel García Márquez",
+        "C. The Girl with the Dragon Tattoo by Stieg Larsson",
+        "D. The Silence of the Lambs by Thomas Harris"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What book has the best pacing?",
+      "choices": [
+        "A. The Da Vinci Code by Dan Brown",
+        "B. The Girl on the Train by Paula Hawkins",
+        "C. The Great Gatsby by F. Scott Fitzgerald",
+        "D. The Hobbit by J.R.R. Tolkien"
+      ],
+      "answer": "A"
+    }
+  ]
+}

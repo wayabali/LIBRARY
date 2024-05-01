@@ -1,0 +1,148 @@
+
+body{
+  background-image: url('/public/pic.png');;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    width: 40%;
+    background-size: 100%;
+    
+    
+    
+}
+.loger-box {
+    /*transform: translate(30%,10%);*/
+    border-radius: 15px;
+    padding: 20px;
+    height: 100vh;
+    width: 400px;
+    text-align: left;
+    
+  }
+.loger-box .form-box{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+
+
+
+}
+::placeholder{
+    color: black;
+    font-family: 'Rubik',sans-serif;
+        font-size: 15px;
+    padding-left:0px ;
+    font-weight: bolder;
+    
+    
+}
+
+.loger-box h1{
+
+  color: #000000;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Rubik',sans-serif;  
+}
+
+
+.input-box{
+  position: relative;
+  bottom: -17px;
+  margin-top: 15px;
+  outline: 0;
+.icon {
+  position: absolute;
+  left: 20px;
+  bottom: 14px;
+  font-size: 20px;
+}
+}
+.form-box input {
+    height: 50px;
+    width: 95%;
+    background-color: white;
+    color: #000000;
+    padding-left: 45px;
+    margin-top: 8px;
+    font-size: bold;
+    font-weight: 300; 
+    letter-spacing: 1px;
+    border: 1px solid #cccccca7;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;    
+  }
+  .form-box input:hover{
+  
+    border-color: #000000 ;
+  }
+  
+
+ 
+  form{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.57);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    box-shadow:0 0 100px rgba(84, 78, 78, 1);
+    padding: 50px 35px;
+}
+form *{
+  font-family: 'Rubik',sans-serif;
+      letter-spacing: 0.5px;
+    outline: none;
+   
+}
+
+.loger-box .register h4{
+    position: absolute;
+    color: black;
+    align-items: center;
+    margin-left: 55px;
+  }
+.loger-box .register h4 a{
+     color: rgb(118, 87, 222);
+     font-family: 'Rubik',sans-serif;    
+     font-weight: bolder;
+   
+  }
+  .loger-box .register h4 a:hover{
+    color: rgb(60, 0, 255);
+    
+   
+  }
+.btn{
+  background-color: #070707; /* Adjust button color */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Rubik',sans-serif;
+  transition: 0.3s;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 130px; 
+  margin-left: 130px;
+}
+  .btn:hover{
+  background-color: rgb(132, 0, 255);
+  color: #070707;
+  width: 180px;
+  height: 45px;
+  margin-bottom: 5px;
+  align-content: center;
+  font-size: medium;
+  margin-left: 100px;
+}

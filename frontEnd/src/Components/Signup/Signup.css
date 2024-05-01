@@ -1,0 +1,90 @@
+.signup-container {
+  background-image: url('/public/pic.png'); /* Adjust the path to your image */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Adjust text color */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.57);
+   
+    
+    border-radius: 35px; 
+    box-shadow:0 0 100px rgba(84, 78, 78, 1);
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    
+}
+.signup-form h2{
+  color: #070707;
+  font-size: 50px;
+  font-family: 'Rubik',sans-serif;
+}
+input {
+  height: 100px;
+    width: 85%;
+  background-color: white;
+  color: #000000;
+  padding-left: 45px;
+  margin-top: 8px;
+  font-size: bold;
+  font-weight: 300; 
+  letter-spacing: 1px;
+  border: 1px solid #cccccca7;
+  border-radius: 25px;
+  font-family: 'Rubik',sans-serif;
+}
+.signup-form input::placeholder{
+  color: #070707e2;
+  font-family: 'Rubik' , sans-serif;
+  
+}
+
+button {
+  background-color: #070707; /* Adjust button color */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Rubik',sans-serif;
+  transition: 0.3s;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 130px; ;
+}
+button:hover{
+  background-color: rgb(132, 0, 255);
+  color: #070707;
+  width: 180px;
+  height: 45px;
+  margin-bottom: 5px;
+  align-content: center;
+  font-size: medium;
+}
+button:active{
+  transition: 0.1s;
+  background-color: #007bff;
+  color: white;
+}
+h3 {
+  color: #070707;
+  font-family: 'Rubik',sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #007bff; /* Adjust link color */
+  cursor: pointer;
+}
+
