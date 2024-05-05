@@ -17,9 +17,9 @@ const handleSubmit= (event)=>{
   .then(res => {
      if(res.data.Status === "SUCCESS"){
       alert("thanks for login in");
-      if(res.data.Type === "admin")
-      navigate("/signup");    //we will change this to navigate to the website homepage
-      else navigate("/home");
+      if(res.data.typpe === "admin")
+      navigate("/adminpage");    //adapt this line with your code
+      else navigate("/home");     //also adapt this to your code
      } else alert(res.data.Error);
   })
   .then(err => console.log(err));
