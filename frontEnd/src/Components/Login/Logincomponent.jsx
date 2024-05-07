@@ -28,21 +28,21 @@ const handleSubmit= (event)=>{
     
     <div>
       <title>Login Page version 1.0</title>
-      <div className ="container">
+      <div className ="container-login">
         
           <div className ="loger-box">
-              <div className="form-box login">
+              <div className="form-box-login">
                   <form onSubmit={handleSubmit}  action="#">
                       <h1 > LOGIN </h1>
-                      <div className="input-box" >
+                      <div className="input-box-login" >
                           <input className="inputCur" type="email"  name="email"  onChange={e=>setvalues({...VALUES , email : e.target.value})} placeholder="Email" required/>
                       </div>
-                      <div className="input-box" >
+                      <div className="input-box-login" >
                           <input className="inputCur" type="password" name="password" onChange={e=>setvalues({...VALUES , password : e.target.value})}  placeholder="Password" required/>
                         </div>
                       <button type="submit" className="btn"> LOG IN</button>
                       <div className="register">
-                          <h4 > you don’t have an account? <span><Link to="/Signup">Signup</Link></span></h4>
+                          <h4  className="qst"> you don’t have an account? <span><Link to="/Signup">Signup</Link></span></h4>
                       </div>
 
                   </form> 

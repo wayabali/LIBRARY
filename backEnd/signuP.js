@@ -19,7 +19,7 @@ app.use(cookieParser());
 const db = connectionDb;
 const saltRounds = 10;
 
-app.post('/signup', async (req , res)=>{ //for the sign up page
+app.post('/Signup', async (req , res)=>{ //for the sign up page
   
   const sql = "INSERT INTO Userr (`user_Name`, `gmail`,`passwordd`) VALUES (?,?,?) ";  //rani dayer ala hsab data base ta3ak
    await bcrypt.hash(req.body.password , saltRounds , (err , hashPs)=>{
@@ -30,16 +30,17 @@ app.post('/signup', async (req , res)=>{ //for the sign up page
       hashPs
    ] 
    db.query(sql , VALUES ,  (err , result)=>{
-    if(err) return res.json({Error: "INSERTING DATA ERROR IN SERVER"});
+    if(err) return res.json({Error: "INSERTING DATA ERROR IN SERVER "});
     else return res.json({Status : "SUCCESS"})
    })
     })
   })
 
   app.post('/login' , async (req , res)=>{    //this fo login
-    const sql = "SELECT * FROM users WHERE gmail=? "    //rani dayer ala hsab dbb ta3ak
+    const sql = "SELECT * FROM userr WHERE gmail=? "    //rani dayer ala hsab dbb ta3ak
     db.query(sql , [req.body.email] ,(err,data)=>{
-     if(err) return res.json({Error: "INSERTING DATA ERROR IN SERVER"});
+     if(err) return 
+      res.json({Error: "INSERTING DATA ERROR IN SERVER yoo"});
      if(data.length>0) {
        bcrypt.compare(req.body.password.toString() , data[0].passwordd , (err , response)=>{
           if(err) return res.json({Error : "ERROR COMAPARING PASSWORD"});

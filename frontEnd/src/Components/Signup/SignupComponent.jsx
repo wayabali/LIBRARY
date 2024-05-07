@@ -28,7 +28,7 @@ navigate("/login");
         <input type="text" id="username" name="username" onChange={e=> setvalues({...VALUES , username: e.target.value})} placeholder="Username" required />
         <input type="email" id="email" name="email" onChange={e=> setvalues({...VALUES , email: e.target.value})} placeholder="Email" required />
         <input type="password" id="password" name="password" onChange={e=> setvalues({...VALUES , password: e.target.value})} placeholder="Password" required />
-        <button type="submit">Create Account</button>
+        <button className='buttonX' type="submit">Create Account</button>
         <h3>
         Already registered? <span><Link to="/login">LOGIN</Link></span>
       </h3>

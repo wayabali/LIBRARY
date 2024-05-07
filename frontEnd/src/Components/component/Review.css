@@ -1,0 +1,98 @@
+.Reviews{
+  margin-top: 20px;
+  padding: 1em;
+  position: absolute;
+  left: 10%;
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+
+
+}
+.Reviews-container{
+  margin-top: 40px;
+  
+  
+}
+
+
+.review-body{
+  display: flex;
+  margin-bottom: 28px;
+  width: 800px;
+  height: 80px;
+ 
+  border: 2px solid #a4a2a0;
+  border-radius: 20px;
+  background-color: #f8f7f4;
+
+}
+
+.user-container-img {
+  background-image: url('../../img/user.png');
+  margin-left: 10px;
+  margin-right: 12px;
+  position: relative;
+  top: 15%;
+
+  
+}
+
+.user-container-img img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.review-right-part {
+  width: 100%;
+}
+
+.review-content {
+  display: flex;
+  width: 100px;
+  
+  top: 50px;
+}
+
+.review-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(59, 130, 246);
+}
+.stars-rated{
+  position: relative;
+  right: 45%;
+  top: 10%;
+  width: 20%;
+  
+ 
+}
+
+.review-text {
+  font-size: 18px;
+  position: relative;
+  height: 40%;
+  width: 500px;
+  top: 45%;
+  right: 5%;
+  text-align: left;
+  font-family: "Orienta", sans-serif;
+ 
+}
+
+.user-name{
+  position: relative;
+  text-decoration: underline black;
+  font-family: "Orienta", sans-serif;
+  top: 10%;
+
+}
+
+.review-date{
+  position: relative;
+  top: 100%;
+  font-family: "Orienta", sans-serif;
+  font-style: oblique;
+}

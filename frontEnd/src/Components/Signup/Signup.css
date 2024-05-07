@@ -62,7 +62,7 @@ button {
   height: 40px;
   width: 130px; ;
 }
-button:hover{
+.buttonX:hover{
   background-color: rgb(132, 0, 255);
   color: #070707;
   width: 180px;
@@ -71,7 +71,7 @@ button:hover{
   align-content: center;
   font-size: medium;
 }
-button:active{
+.buttonX:active{
   transition: 0.1s;
   background-color: #007bff;
   color: white;
