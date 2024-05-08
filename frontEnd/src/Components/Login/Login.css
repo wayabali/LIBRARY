@@ -108,7 +108,8 @@ form *{
     position: absolute;
     color: black;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-top: 45px;
   }
 .loger-box .register h4 a{
      color: rgb(118, 87, 222);
@@ -130,11 +131,11 @@ form *{
   border-radius: 20px;
   font-family: 'Rubik',sans-serif;
   transition: 0.3s;
-  margin-top: 35px;
+  margin-top: 50px;
   margin-bottom: 10px;
   height: 40px;
   width: 130px; 
-  margin-left: 100px;
+  margin-left: 130px;
 }
   .btn:hover{
   background-color: rgb(132, 0, 255);
@@ -144,5 +145,5 @@ form *{
   margin-bottom: 5px;
   align-content: center;
   font-size: medium;
-  margin-left: 70px;
+  margin-left: 100px;
 }

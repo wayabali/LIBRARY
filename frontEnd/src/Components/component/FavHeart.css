@@ -9,7 +9,7 @@
     display: flex;
     position: absolute;
     bottom: 75px;
-    right: 55px ;
+    right: 600px ;
     font-size: small;
     text-align: center;
     justify-content: center;
@@ -20,15 +20,16 @@
 }
 
 
-.container input {
+.containerfav input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
+    
   }
   
-  .container {
+  .containerfav {
     display: block;
     position: absolute;
     cursor: pointer;

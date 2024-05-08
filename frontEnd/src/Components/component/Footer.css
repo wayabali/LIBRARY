@@ -1,7 +1,7 @@
 *{
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:content-box;
 }
 
 .footer-container{
@@ -14,7 +14,7 @@
 
 }
 .footerimg{
-  
+  background-image: url('../../img/LogoTitle.png');
   position: absolute;
   background-size: cover;
   width: 350px;

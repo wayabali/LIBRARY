@@ -7,6 +7,7 @@ import CommentSection from '../../Components/component/CommentBox.jsx';
 import Axios from 'axios';
 
 
+
 function Display() {
   return (
 
@@ -14,6 +15,7 @@ function Display() {
       <Navbar/>
       <Box index={1}/>
       <CommentSection/>
+      
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function Reviews({ currentUserId }) {
     const [reviews, setReviews] = useState([]);
 
     const getReviews = () => {
-        axios.get("http://localhost:5174/api/reviews")
+        axios.get("http://localhost:5000/api/reviews")
             .then(response => {
                 setReviews(response.data);
             })
@@ -17,7 +17,7 @@ export default function Reviews({ currentUserId }) {
     };
 
     const deleteReview = (reviewId) => {
-        axios.delete(`http://localhost:5174/api/reviews/${reviewId}`)
+        axios.delete(`http://localhost:5000/api/reviews/${reviewId}`)
             .then(() => {
                 setReviews(reviews.filter(review => review.idReview !== reviewId));
             })

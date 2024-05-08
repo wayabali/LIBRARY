@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: ["http://localhost:3000"],
-  methods : ["POST","GET"],
+  methods : ["POST","GET","PUT","DELETE"],
   credentials : true
 }));
 app.use(cookieParser());
@@ -55,6 +55,71 @@ app.post('/Signup', async (req , res)=>{ //for the sign up page
       else return res.json({Error: "No email existing"})
     })
   })
+  app.get("/displaybook", (req, res) => {
+    const selectBookData = "SELECT * FROM Book";
+   
+    db.query(selectBookData, (err, results) => {
+        if (err) {
+            console.error('Failed to fetch book infos:', err);
+            res.sendStatus(500);
+            return;
+        }
+        res.json(results);
+    });
+});
+app.get("/api/reviews", (req, res) => {
+  const query = `
+  SELECT review.*, user.User_Name
+  FROM review
+  JOIN user ON review.idUser = user.idUser
+`;
+  db.query(query, (err, results) => {
+      if (err) {
+          console.error('Failed to fetch reviews:', err);
+          res.sendStatus(500);
+          return;
+      }
+      res.json(results);
+  });
+});
+app.delete("/api/reviews/:idReview", (req, res) => {
+  const { idReview } = req.params;
+  const removeReview = "DELETE FROM `Reviews` WHERE `reviewID` = ?;";
+  db.query(removeReview, [idReview], (err, result) => {
+    if (err) {
+      console.error("Error removing your review:", err);
+      return res.status(500).json({ error: "Error removing review" });
+    }
+    console.log("Review removed successfully");
+    res.status(200).json({ message: "Review removed successfully" });
+  });
+});
+app.post("/api/INSERT/FAV", (req, res) => {
+  const { idBook, idUser } = req.body;
+
+  const addFav = "INSERT INTO `FavoritBook` (`bookID`, `userID`) VALUES ( ?, ?);";
+  db.query(addFav, [idBook, idUser], (err, result) => {
+      if (err) {
+          console.error("Error inserting favorite:", err);
+          return res.status(500).json({ error: "Error inserting favorite" });
+      }
+      console.log("Favorite inserted successfully");
+      res.status(200).json({ message: "Favorite inserted successfully" });
+  });
+});
+app.post("/api/insert", (req, res) => {
+  const { bookReview, Rated , createdTime,IdUser} = req.body;
+
+  const sqlInsert = "INSERT INTO `Reviews` ( `date`, `rate`, `userID`, `review_Desc`, `bookID`) VALUES ( ?, ?, ?, ?, ?);";
+  db.query(sqlInsert, [createdTime, Rated,IdUser,bookReview], (err, result) => {
+      if (err) {
+          console.error("Error inserting review:", err);
+          return res.status(500).json({ error: "Error inserting review" });
+      }
+      console.log("Review inserted successfully");
+      res.status(200).json({ message: "Review inserted successfully" });
+  });
+});
 
 
 app.listen(5000 ,() =>{

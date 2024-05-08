@@ -19,14 +19,18 @@ return (
             </a>
           </li>
           <li className="abril-fatface-regular">
-            <a href="/">ABOUT</a>
+            <a href="/aboutus">ABOUT</a>
           </li>
           <li>
             <a href="/user_info" className="userpict">
               User Info
             </a>
           </li>
-         
+          <li>
+            <a href="/login" className="LogoutUser">
+              LogOut
+            </a>
+          </li>
         </ul>
       </nav>
 )

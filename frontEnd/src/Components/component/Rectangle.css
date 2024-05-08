@@ -1,0 +1,66 @@
+.rectangle{
+
+
+  box-sizing: content-box;
+  width: 450px;
+  height: 720px;
+  border-radius: 20px;
+  
+
+  position: absolute ;
+  background-color:#f8f7f47d;
+  top: 150px;
+  right: 406px;
+
+  text-align: center;
+  
+  
+ 
+
+}
+
+/*css of link for email*/
+.font-mail{
+  text-decoration: underline;
+  font-family: "Orienta", sans-serif;
+  margin: 20px;
+  color: rgb(50, 50, 154);
+  margin-top: 20px;
+}
+
+/*images*/
+.HP{
+
+background-image: url('../../img/HeartPeople.png');
+height: 100px;
+width: 100px;
+position: absolute;
+top: -40px; 
+left: -20px;
+background-size: cover;
+ 
+}
+.contact h3{
+  margin-left: 20px;
+  margin-top: 280px;
+  
+}
+
+.EL1{
+  background-image: url(../../img/EmailLetter.png);
+  background-size: cover;
+height: 50px;
+width: 50px;
+position: absolute;
+bottom: 20px; 
+right: 20px;
+}
+.EL2{
+  background-image: url(../../img/EmailLetter.png);
+  background-size: cover;
+height: 50px;
+width: 50px;
+position: absolute;
+bottom: 20px; 
+left: 20px;
+}

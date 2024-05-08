@@ -2,6 +2,7 @@ import { FaStar } from 'react-icons/fa';
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../component/Rating.css';
+import { IoSendOutline } from "react-icons/io5";
 
 export default function RateReview({currentIdUser}) {
 
@@ -67,7 +68,7 @@ export default function RateReview({currentIdUser}) {
                     onChange={(e) => setBookReview(e.target.value)}
                 />
                 <button className="Submit" onClick={submitRateReview}>
-                <img className='imgarrow' alt="" />
+                <IoSendOutline />
             </button>
         </div>
             </div>

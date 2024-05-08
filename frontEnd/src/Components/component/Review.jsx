@@ -10,8 +10,8 @@ function Review({ review, onDelete }) {
     return (
         <div className="review-body">
             <div className='user-container-img'><img alt='' /></div>
-            <div className='user-name'>{review.User_Name}: </div>
-            <div className='review-text'>{review.bookReview}</div>
+            <div className='user-name'>{review.user_Name}: </div>
+            <div className='review-text'>{review.review_Desc}</div>
             <div className='stars-rated'>
                 {typeof review.Rate === 'number' && [...Array(5)].map((_, i) => (
                     <FaStar

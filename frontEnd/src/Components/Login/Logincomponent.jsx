@@ -35,10 +35,10 @@ const handleSubmit= (event)=>{
                   <form onSubmit={handleSubmit}  action="#">
                       <h1 > LOGIN </h1>
                       <div className="input-box-login" >
-                          <input className="inputCur" type="email"  name="email"  onChange={e=>setvalues({...VALUES , email : e.target.value})} placeholder="Email" required/>
+                          <input className="inputlog" type="email"  name="email"  onChange={e=>setvalues({...VALUES , email : e.target.value})} placeholder="Email" required/>
                       </div>
                       <div className="input-box-login" >
-                          <input className="inputCur" type="password" name="password" onChange={e=>setvalues({...VALUES , password : e.target.value})}  placeholder="Password" required/>
+                          <input className="inputlog" type="password" name="password" onChange={e=>setvalues({...VALUES , password : e.target.value})}  placeholder="Password" required/>
                         </div>
                       <button type="submit" className="btn"> LOG IN</button>
                       <div className="register">

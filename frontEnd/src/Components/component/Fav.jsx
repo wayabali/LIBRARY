@@ -7,7 +7,7 @@ export default function Favorite({ id, userId }) {
 
   const addToFavorites = () => {
     axios
-      .post("http://localhost:5174/api/INSERT/FAV", { idBook: id, idUser: userId })
+      .post("http://localhost:5000/api/INSERT/FAV", { idBook: id, idUser: userId })
       .then(() => {
         setIsFavorited(true);
         alert("Book added to favorites!");
@@ -20,7 +20,7 @@ export default function Favorite({ id, userId }) {
 
   const removeFromFavorites = () => {
     axios
-      .delete("http://localhost:5174/api/DELETE/FAV", { data: { idBook: id, idUser: userId } })
+      .delete("http://localhost:5000/api/DELETE/FAV", { data: { idBook: id, idUser: userId } })
       .then(() => {
         setIsFavorited(false);
         alert("Book removed from favorites!");
@@ -43,7 +43,7 @@ export default function Favorite({ id, userId }) {
     <>
       <div className="heart-box">
         <p className="add-favourite">Add to favourites</p>
-        <label title="Add to Favourites" className="container">
+        <label title="Add to Favourites" className="containerfav">
           <input type="checkbox" checked={isFavorited} onChange={handleToggleFavorite} />
           <div className="checkmark">
             <svg viewBox="0 0 256 256">
