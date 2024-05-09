@@ -1,0 +1,144 @@
+
+.abril-fatface-regular-Navbar-page {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+  .Nav-img-home-page{
+    background-image: url('../../img/logo.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    left: 5px;
+  }
+  .header-img-home-page{
+    width: 100vw;
+  }
+  
+  .Nav-home-page {
+    border-color: black;
+    border-radius: 15px;
+    width: 1200px;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+  
+    position: absolute;
+    top: 0;
+    left: 0px;
+  
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .ul_navbar_page{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    left: 400px;
+    border-radius: 50px;
+  
+    gap: 2rem;
+    align-items: center;
+    color: rgb(2, 2, 2);
+     
+  }
+  .Nav-home-page li {
+    background-color: #f8f7f4a1;
+    border-radius: 15px;
+  }
+  
+  .Nav-home-page li:hover {
+    text-decoration: underline #e17749;
+  }
+  
+  .Nav-home-page a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+  }
+  
+  .Nav-img-home-page {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: -10px;
+  }
+  
+  
+
+  .SU-Navbar-page {
+    box-sizing: border-box;
+    background-color: rgb(178, 219, 102);
+    border-radius: 16px;
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    font-family: "Orienta", sans-serif;
+  }
+  .logIn-Navbar-page {
+    font-family: "Orienta", sans-serif;
+  }
+  
+  .SearchBar-Navbar-page{
+      
+    
+    max-width: 250px;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 60px;
+    
+    backdrop-filter: blur(4px) saturate(180%);
+  
+    
+  }
+  .input-title-Navbar-page{
+    color: black;
+    width: 200px;
+    border-radius: 60px;
+    height: 40px;
+    backdrop-filter: blur(4px) saturate(180%);
+    background-color: aliceblue;
+    border-width: 0;
+   text-align:left;
+  }
+  
+  .button-Navbar-page img{
+     
+    width: 20px;
+    height: 20px;
+  
+  
+  }
+  
+  .button-Navbar-page{
+    border: 2px;
+    border-color: #f4a976;
+  
+   border-style: solid;
+  
+    border-radius:50% ;
+    background: #f46e16;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .button-Navbar-page:hover{
+    border-color: beige;
+  } 

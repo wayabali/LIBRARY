@@ -26,33 +26,28 @@ const handleSubmit= (event)=>{
 }
   return (
     
-    <div>
+     <div className="login-page"> {/* Ajoutez la classe spécifique à la page de connexion */}
       <title>Login Page version 1.0</title>
-      <div className ="container">
-        
-          <div className ="loger-box">
-              <div className="form-box login">
-                  <form onSubmit={handleSubmit}  action="#">
-                      <h1 > LOGIN </h1>
-                      <div className="input-box" >
-                          <input className="inputCur" type="email"  name="email"  onChange={e=>setvalues({...VALUES , email : e.target.value})} placeholder="Email" required/>
-                      </div>
-                      <div className="input-box" >
-                          <input className="inputCur" type="password" name="password" onChange={e=>setvalues({...VALUES , password : e.target.value})}  placeholder="Password" required/>
-                        </div>
-                      <button type="submit" className="btn"> LOG IN</button>
-                      <div className="register">
-                          <h4 > you don’t have an account? <span><Link to="/Signup">Signup</Link></span></h4>
-                      </div>
-
-                  </form> 
+      <div className="container-login-page">
+        <div className="loger-box-login-page">
+          <div className="form-box-login-page">
+            <form className='form-login-page' onSubmit={handleSubmit} action="#">
+              <h1> LOGIN </h1>
+              <div className="input-box-login-page">
+                <input className="inputCur" type="email" name="email" onChange={e => setvalues({ ...VALUES, email: e.target.value })} placeholder="Email" required />
               </div>
+              <div className="input-box-login-page">
+                <input className="inputCur" type="password" name="password" onChange={e => setvalues({ ...VALUES, password: e.target.value })} placeholder="Password" required />
+              </div>
+              <button type="submit" className="btn-login-page"> LOG IN</button>
+              <div className="register-login-page">
+                <h4> you don’t have an account? <span><Link to="/Signup">Signup</Link></span></h4>
+              </div>
+            </form>
           </div>
-
+        </div>
       </div>
-
-
-</div>
+    </div>
 
   );
 };

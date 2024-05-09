@@ -1,18 +1,19 @@
 
-body{
-  background-image: url('/public/pic.png');;
-    background-repeat: no-repeat;
+.login-page{
+  background-image: url('../../../public/pic.png');;
+  background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 90vh;
-    width: 40%;
-    background-size: 100%;
+    height: 110vh;
+    width: 100vw;
+    background-size: cover;
+   
     
     
     
 }
-.loger-box {
+.loger-box-login-page {
     /*transform: translate(30%,10%);*/
     border-radius: 15px;
     padding: 20px;
@@ -21,7 +22,7 @@ body{
     text-align: left;
     
   }
-.loger-box .form-box{
+.loger-box-login-page .form-box-login-page{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -41,7 +42,7 @@ height: 100%;
     
 }
 
-.loger-box h1{
+.loger-box-login-page h1{
 
   color: #000000;
   font-size: 50px;
@@ -51,7 +52,7 @@ height: 100%;
 }
 
 
-.input-box{
+.input-box-login-page{
   position: relative;
   bottom: -17px;
   margin-top: 15px;
@@ -63,7 +64,7 @@ height: 100%;
   font-size: 20px;
 }
 }
-.form-box input {
+.form-box-login-page input {
     height: 50px;
     width: 95%;
     background-color: white;
@@ -78,14 +79,14 @@ height: 100%;
     box-sizing: border-box;
     font-family: 'Rubik',sans-serif;    
   }
-  .form-box input:hover{
+  .form-box-login-page input:hover{
   
     border-color: #000000 ;
   }
   
 
  
-  form{
+ .form-login-page{
     height: 400px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.57);
@@ -97,31 +98,31 @@ height: 100%;
     box-shadow:0 0 100px rgba(84, 78, 78, 1);
     padding: 50px 35px;
 }
-form *{
+.form-login-page *{
   font-family: 'Rubik',sans-serif;
       letter-spacing: 0.5px;
     outline: none;
    
 }
 
-.loger-box .register h4{
+.loger-box-login-page .register-login-page h4{
     position: absolute;
     color: black;
     align-items: center;
-    margin-left: 55px;
+    margin-left: 30px;
   }
-.loger-box .register h4 a{
+.loger-box-login-page .register-login-page h4 a{
      color: rgb(118, 87, 222);
      font-family: 'Rubik',sans-serif;    
      font-weight: bolder;
    
   }
-  .loger-box .register h4 a:hover{
+  .loger-box-login-page .register-login-page h4 a:hover{
     color: rgb(60, 0, 255);
     
    
   }
-.btn{
+.btn-login-page{
   background-color: #070707; /* Adjust button color */
   color: rgb(255, 255, 255);
   padding: 10px;
@@ -134,9 +135,9 @@ form *{
   margin-bottom: 10px;
   height: 40px;
   width: 130px; 
-  margin-left: 130px;
+  margin-left: 100px;
 }
-  .btn:hover{
+  .btn-login-page:hover{
   background-color: rgb(132, 0, 255);
   color: #070707;
   width: 180px;
@@ -144,5 +145,5 @@ form *{
   margin-bottom: 5px;
   align-content: center;
   font-size: medium;
-  margin-left: 100px;
+  margin-left: 70px;
 }

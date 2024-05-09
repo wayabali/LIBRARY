@@ -1,0 +1,18 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.Contain {
+  background-image: url("../../../public/pic.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  max-width: 1024px;
+  min-width: none;
+  height: 800px;
+  margin: 0 auto;
+}
+
+
+
+

@@ -25,10 +25,10 @@ navigate("/login");
     <div className="signup-container" >
       <form onSubmit={handleSubmit} className="signup-form">
       <h2>SIGN UP</h2>
-        <input type="text" id="username" name="username" onChange={e=> setvalues({...VALUES , username: e.target.value})} placeholder="Username" required />
-        <input type="email" id="email" name="email" onChange={e=> setvalues({...VALUES , email: e.target.value})} placeholder="Email" required />
-        <input type="password" id="password" name="password" onChange={e=> setvalues({...VALUES , password: e.target.value})} placeholder="Password" required />
-        <button type="submit">Create Account</button>
+        <input className='inputs-singup' type="text" id="username" name="username" onChange={e=> setvalues({...VALUES , username: e.target.value})} placeholder="Username" required />
+        <input className='inputs-singup' type="email" id="email" name="email" onChange={e=> setvalues({...VALUES , email: e.target.value})} placeholder="Email" required />
+        <input className='inputs-singup' type="password" id="password" name="password" onChange={e=> setvalues({...VALUES , password: e.target.value})} placeholder="Password" required />
+        <button className='btn-signup-page' type="submit">Create Account</button>
         <h3>
         Already registered? <span><Link to="/login">LOGIN</Link></span>
       </h3>

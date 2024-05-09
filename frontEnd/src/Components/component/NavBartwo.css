@@ -1,0 +1,46 @@
+.Nav-Navbartwo-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pour espacer les éléments à droite et à gauche */
+  background-color: none;
+  width: 700px;
+  height: 80px;
+ margin-right: 20px;
+  
+}
+
+.Nav-Navbartwo-page a {
+  text-decoration: none;
+  color: #333333;
+  margin-left: 30px;
+}
+
+.Nav-Navbartwo-page a:hover {
+  color: #555555;
+}
+
+.abril-fatface-regular-Navbartwo-page {
+  font-family: "Abril Fatface", serif;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #d4cdcdb9;
+  border-radius: 13px;
+  padding: 8px 15px; /* Ajoute un espace intérieur */
+  color: black;
+  margin-left: 10px; /* Ajoute une marge à gauche */
+}
+
+.abril-fatface-regular-Navbartwo-page:first-child {
+  margin-left: 0; /* Supprime la marge à gauche pour le premier élément */
+}
+
+.Nav-img-Navbartwo-page {
+  width: 280px;
+  height: 100px;
+  background-image: url('../../img/logo.png');
+  background-size: cover;
+  background-position: center;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+}

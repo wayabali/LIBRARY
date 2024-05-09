@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+
+
+.aboutpage{
+  background-image: url('../../../public/pic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  width: 250vw;
+  height: 220vh;
+  margin-right: 60px ;
+  display: flex;
+  flex-direction: inline;
+
+  
+}
+
+
+
+
+

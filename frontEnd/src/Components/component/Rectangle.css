@@ -1,0 +1,111 @@
+
+
+.font-rectangle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight:  bold;
+  width: 400px;
+  font-style: normal;
+  text-align: center;
+  color: #524A43;
+  margin-bottom: 20px; 
+  top: 200px;
+  margin-left: 140px;
+  margin-right: 10px;
+
+  
+}
+
+/*About us title*/
+.font-titan-one-rectangle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #524A43;
+  margin-top: 30px;
+}
+
+/*contact us title*/
+.font-titan-one2-rectangle {
+  font-family: "Courier New", Courier, monospace;
+  
+  font-style: bold;
+  color: #524A43;
+  font-weight: bold;
+  margin-top: 70px;
+  padding: 0;
+
+   
+}
+
+/*crew title*/
+.font-titan-one3-rectangle {
+  font-family: "Courier New", Courier, monospace;;
+  font-weight: 400;
+  font-style: bold;
+  color: #524A43;
+  font-weight: bold;
+  
+}
+
+/*css of link for email*/
+.font-mail-rectangle{
+  text-decoration: underline;
+  font-family: "Orienta", sans-serif;
+  margin: 20px;
+  color: rgb(50, 50, 154);
+  margin-top: 10px;
+}
+
+/*images*/
+.HP-rectangle{
+
+background-image: url('../../img/HeartPeople.png');
+height: 100px;
+width: 100px;
+position: absolute;
+top: -40px; 
+left: -20px;
+background-size: cover;
+ 
+}
+.contact-rectangle h3{
+  margin-left: 20px;
+  top: 280px;
+  
+}
+
+.EL1-rectangle{
+  background-image: url(../../img/EmailLetter.png);
+  background-size: cover;
+height: 50px;
+width: 50px;
+position: absolute;
+bottom: 20px; 
+right: 20px;
+}
+.EL2-rectangle{
+  background-image: url(../../img/EmailLetter.png);
+  background-size: cover;
+height: 50px;
+width: 50px;
+position: absolute;
+bottom: 20px; 
+left: 20px;
+}
+.rectangle {
+  
+  width: 700px;
+  height: 900px;
+  border-radius: 50px;
+  position:absolute;
+  background-color: #d3d3b9ab;
+  top: 150px;
+  right: 300px;
+  align-content: center;
+  text-align: center;
+  box-shadow: #0b0b0c;
+  margin-top: 30px;
+}
+.contact-rectangle{
+  top: 50px;
+}

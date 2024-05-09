@@ -1,0 +1,245 @@
+/* .div-Userinfo{
+    font-size: 400px;
+}  */
+
+.Big-box{
+    height: 69%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.57);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    
+    border-radius: 25px;
+    box-shadow:0 0 100px rgba(84, 78, 78, 1);
+    padding: 50px 35px;
+}
+
+.div-Userinfo-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 30 px;
+    
+  }
+  
+/* .button-Userinfo{
+    margin:30px ;
+    background-color: #ffffff;
+    height: 30px;
+    width: 130px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bolder;
+
+    
+}  */
+/* .button-Userinfo-singup{
+    margin:30px ;
+    background-color: #57e331;
+    height: 30px;
+    width: 130px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+
+} 
+.button-Userinfo-singup:hover{
+    background-color: rgb(51, 116, 60);
+    width: 140px;
+    height: 45px;
+  } */
+/* .button-Userinfo:hover{
+    background-color: rgb(77, 79, 77);
+    width: 140px;
+    height: 45px;
+  } */
+  /* .icon-userinfo {
+    position: relative;
+    width: 25px; 
+    height: 25px; 
+    right: 20%;
+    top: 10%;
+   
+  } */
+ 
+
+/* CSS */
+.button-Userinfo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Rubik',sans-serif;
+  touch-action: manipulation;
+}
+
+.button-Userinfo:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  font-family: 'Rubik',sans-serif;
+}
+
+@media (min-width: 768px) {
+  .button-Userinfo {
+    padding: 0.25em 0.75em;
+  }
+}
+.button-Userinfo-singup {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #0de82e;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Rubik',sans-serif;
+}
+
+.button-Userinfo-singup:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  font-family: 'Rubik',sans-serif;
+}
+
+@media (min-width: 768px) {
+  .button-Userinfo-singup {
+    padding: 0.25em 0.75em;
+  }
+}
+.div-Userinfo{
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    left: 5%;
+    font-family: 'Rubik',sans-serif;
+}
+
+.userImage{
+    position: relative;
+    width: 35%; 
+    height: 300px; 
+    /* right: 20%;
+    top: 10%; */
+    top:  5%;
+    border-radius: 100px;
+}
+.input-file-update
+{
+    position: absolute;
+    display: none;
+    
+}
+#input-file1
+{
+    position: relative;
+    right: 24%;
+    top: 15%;
+    font-size: 20px;
+    font-family: 'Rubik',sans-serif;
+  font-size: 16px;
+  background-color: #fcfcfc;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+#input-file1:active
+{
+    box-shadow: 0px 0px 0px 0px;
+    /* top: 5px;
+    left: 5px; */
+}
+@media (min-width: 768px) {
+    #input-file1 {
+      padding: 0.25em 0.75em;
+    }
+  }
+#Email-field{
+  position: absolute;
+  bottom: 60%;
+  left: 40%;
+  height: 25px;
+  width: 250px;
+  
+}
+#Email-field1{
+  position: absolute;
+  bottom: 65%;
+  left: 40%;
+  font-weight: bold;
+  font-family: 'Rubik',sans-serif;
+}
+#Username-field{
+  position: absolute;
+  bottom: 60%;
+  left: 70%;
+  height: 25px;
+  width: 250px;
+  
+}
+#Username-field1{
+  position: absolute;
+  bottom: 65%;
+  left: 70%;
+  font-weight: bold;
+  font-family: 'Rubik',sans-serif;
+}
+ #password-field{
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  height: 25px;
+  width: 250px;
+  
+}
+ #password-field1{
+  position: absolute;
+  bottom: 25%;
+  left: 40%;
+  font-weight: bold;
+  font-family: 'Rubik',sans-serif;
+} 
+ #phone-field{
+  position: absolute;
+  bottom: 20%;
+  left: 70%;
+  height: 25px;
+  width: 250px;
+  
+}
+#phone-field1{
+  position: absolute;
+  bottom: 25%;
+  left: 70%;
+  font-weight: bold;
+  font-family: 'Rubik',sans-serif;
+}  
