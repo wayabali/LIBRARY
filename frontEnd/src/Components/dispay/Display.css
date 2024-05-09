@@ -4,10 +4,11 @@
 }
 .Contain {
   background-image: url("../../../public/pic.png");
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-repeat: repeat;
+  width: 1300px;
+  height:1400px;
   background-attachment: fixed;
-  max-width: 1024px;
+ 
   min-width: none;
   height: 800px;
   margin: 0 auto;

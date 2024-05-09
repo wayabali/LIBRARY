@@ -62,28 +62,28 @@ export default function Content() {
                     />
                 </div>
                 <div>
-                <div className="genre-shelves">
+<div className="genre-shelves">
                 <ul>
     <li className='li-category'>
-        <h2>Fantasy:</h2>
+        <h2 className='catname'>Fantasy:</h2>
         <div className='gshelf1'>
             <BookListG key="fantasy" category={"fantasy"} />
         </div>
     </li>
     <li className='li-category'>
-        <h2>Coding:</h2>
+        <h2 className='catname'>Coding:</h2>
         <div className='gshelf2'>
             <BookListG key="coding" category={"coding"} />
         </div>
     </li>
     <li className='li-category'>
-        <h2>Psychologie:</h2>
+        <h2 className='catname'>Psychologie:</h2>
         <div className='gshelf3'>
             <BookListG key="Psychologie" category={"Psychologie"} />
         </div>
     </li>
     <li className='li-category'>
-        <h2>Philosophy:</h2>
+        <h2 className='catname'>Philosophy:</h2>
         <div className='gshelf4'>
             <BookListG key="philosophy" category={"philosophy"} />
         </div>

@@ -42,10 +42,6 @@ export default function Navbar() {
           <li className="abril-fatface-regular-Navbar-page">
             <a href="/">HOME</a>
           </li>
-         
-          <li className="abril-fatface-regular-Navbar-page">
-            <a href="/Favoris">FAVOURITE</a>
-          </li>
 
           <li className="abril-fatface-regular-Navbar-page">
             <a href="/Aboutus">ABOUT</a>

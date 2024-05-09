@@ -2,17 +2,26 @@
   margin-top: 20px;
   padding: 1em;
   position: absolute;
-  left: 10%;
+  top: 150%;
   display: flex;
   align-items: baseline;
   text-align: left;
+  background-color: #ffffff;
 
 
 }
 .Reviews-container{
   margin-top: 40px;
-  
-  
+  width: 1000px;
+  height: 600px;
+  box-shadow: 10px 10px 5px #5d492156;
+  background-color: #f8f7f4ce;
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-left: 130px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -21,10 +30,10 @@
   margin-bottom: 28px;
   width: 800px;
   height: 80px;
- 
+  
   border: 2px solid #a4a2a0;
   border-radius: 20px;
-  background-color: #f8f7f4;
+  background-color: #fdc10e;
 
 }
 

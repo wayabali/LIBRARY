@@ -11,8 +11,8 @@ return (
       <Link to={"/"}> <div className="abril-fatface-regular-Navbartwo-page">HOME</div> </Link>
       <Link to={"/favoris"}> <div className="abril-fatface-regular-Navbartwo-page">FAVORITE</div> </Link>
       <Link to={"/Aboutus"}> <div className="abril-fatface-regular-Navbartwo-page">ABOUT</div> </Link>
-      <Link to={"/user_info"}> <div className="abril-fatface-regular-Navbartwo-page">profil</div> </Link>
-      <Link to={"/login"}> <div className="abril-fatface-regular-Navbartwo-page">LogOut</div> </Link>
+      <Link to={"/user_info"}> <div className="abril-fatface-regular-Navbartwo-page">PROFIL</div> </Link>
+      <Link to={"/login"}> <div className="abril-fatface-regular-Navbartwo-page">LOGOUT</div> </Link>
        
       </nav>
 )

@@ -3,7 +3,7 @@ import React ,{useEffect,useState}from 'react'
  import image from '../../img/user.png';
 import  './UserInfo.css';
 import axios from 'axios';
-import{Link } from 'react-router-dom';
+import Navbartwo from '../component/NavBartwo';
  const UserInfo  = () => {
 
    // const [userId,setuserId] = useState(Number);
@@ -37,40 +37,37 @@ import{Link } from 'react-router-dom';
   }, []);
     
   return (
-    <>
-    <main className='Big-box'>
-
+    
+    <div className='main-user'>
+        <main className='Big-box'>
+    
     <div className='div-Userinfo' >User Information :</div>
     {/* <div className='div-Userinfo'>FADL</div> */}
     
     <img src={image}  className='userImage' id="image-file-user"/>
 
               
-     <label for="input-file" id="input-file1">update image</label>         
+     <label for="input-file" id="input-file1">Edit</label>         
     <input type='file' accept='image/jpeg,image/png,image/jpg' id="input-file" className='input-file-update'></input>
 
     <label for="Username-field" id='Username-field1' >Username:</label> 
-    <input type='text' id='Username-field' value={user.username}></input>
+    <input className='fielduser' type='text' id='Username-field' value={user.username}></input>
     <label for="password-field" id='password-field1'>Password: </label> 
-    <input type='text' id='password-field' value={user.password}></input>
+    <input className='fielduser' type='text' id='password-field' value={user.password}></input>
     <label for="phone-field" id='phone-field1'>phone:</label> 
-    <input type='text' id='phone-field' value={user.phone}></input>
+    <input className='fielduser' type='text' id='phone-field' value={user.phone}></input>
     <label for="Email-field" id='Email-field1'>Email Address :</label> 
-    <input type='text' id='Email-field' value={user.Email}></input>
+    <input className='fielduser' type='text' id='Email-field' value={user.Email}></input>
     </main>
 
 
     <div className='div-Userinfo-button'>
-    <button className='button-Userinfo' to='/login'>HOME</button>
-    
-    <button className='button-Userinfo'>GENBES</button>
-    <button className='button-Userinfo' >ABOUT</button>
-    <Link to="/login"><button className='button-Userinfo' >Login</button></Link>
-    <Link to="/signup"><button className='button-Userinfo-singup' >sing up for free</button></Link>
-    
+    <Navbartwo/>
     
     </div>
-    </>
+    
+    </div>
+    
   )
   
 }

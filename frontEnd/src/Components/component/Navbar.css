@@ -21,7 +21,8 @@
     border-radius: 15px;
     width: 1200px;
     height: 80px;
-    margin: 20px;
+    margin: 30px;
+    margin-left: 50px ;
     display: flex;
   
     position: absolute;
@@ -36,7 +37,7 @@
   
   .ul_navbar_page{
     padding: 0;
-    margin: 0;
+    margin-left: 10;
     list-style: none;
     display: flex;
     left: 400px;
@@ -50,6 +51,7 @@
   .Nav-home-page li {
     background-color: #f8f7f4a1;
     border-radius: 15px;
+    margin-right: -5px;
   }
   
   .Nav-home-page li:hover {

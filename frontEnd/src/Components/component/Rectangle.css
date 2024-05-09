@@ -53,7 +53,7 @@
   font-family: "Orienta", sans-serif;
   margin: 20px;
   color: rgb(50, 50, 154);
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /*images*/
@@ -70,7 +70,8 @@ background-size: cover;
 }
 .contact-rectangle h3{
   margin-left: 20px;
-  top: 280px;
+  top: 200px;
+  margin-top: 200px;
   
 }
 

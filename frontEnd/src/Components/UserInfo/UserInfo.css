@@ -3,26 +3,31 @@
 }  */
 
 .Big-box{
-    height: 69%;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.57);
+    height: 80%;
+    width: 90%;
+    background-color: #f5ebce9a;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 55%;
     left: 50%;
-    
-    border-radius: 25px;
-    box-shadow:0 0 100px rgba(84, 78, 78, 1);
+    border-radius: 15px;
     padding: 50px 35px;
 }
+.imageuserinfo{
+  background-image: url(../../../public/pic.png);
+  width: 900px;
+  height: 700px;
+}
+.main-user{
+  background-image: url(../../../public/pic.png);
+  width: 1310px;
+  height: 620px;
 
-.div-Userinfo-button {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 30 px;
-    
-  }
+}
+.div-Userinfo-button{
+  margin-right: 230px;
+}
+
   
 /* .button-Userinfo{
     margin:30px ;
@@ -68,60 +73,13 @@
  
 
 /* CSS */
-.button-Userinfo {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
-  cursor: pointer;
-  border: 3px solid;
-  padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-  position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  font-family: 'Rubik',sans-serif;
-  touch-action: manipulation;
-}
-
-.button-Userinfo:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
-  font-family: 'Rubik',sans-serif;
-}
 
 @media (min-width: 768px) {
   .button-Userinfo {
     padding: 0.25em 0.75em;
   }
 }
-.button-Userinfo-singup {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  background-color: #0de82e;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
-  cursor: pointer;
-  border: 3px solid;
-  padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-  position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-family: 'Rubik',sans-serif;
-}
 
-.button-Userinfo-singup:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
-  font-family: 'Rubik',sans-serif;
-}
 
 @media (min-width: 768px) {
   .button-Userinfo-singup {
@@ -134,39 +92,43 @@
     position: relative;
     left: 5%;
     font-family: 'Rubik',sans-serif;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: bold;
 }
 
 .userImage{
     position: relative;
-    width: 35%; 
-    height: 300px; 
+    width: 15%; 
+    height: 130px; 
     /* right: 20%;
     top: 10%; */
-    top:  5%;
+    top:  20%;
+    left: 8%;
     border-radius: 100px;
 }
 .input-file-update
 {
-    position: absolute;
+    
     display: none;
+    left: 15%;
     
 }
 #input-file1
 {
     position: relative;
     right: 24%;
-    top: 15%;
-    font-size: 20px;
+    height: 16px;
+    width: 30px;
+    top: 40%;
+    left: -2%;
+    font-size: 15px;
     font-family: 'Rubik',sans-serif;
   font-size: 16px;
-  background-color: #fcfcfc;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
+  background-color: #2b9939;
+  color: #ffffff;
   cursor: pointer;
-  border: 3px solid;
+  border-radius: 7px;
   padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -185,60 +147,72 @@
   }
 #Email-field{
   position: absolute;
-  bottom: 60%;
+  bottom: 50%;
   left: 40%;
   height: 25px;
   width: 250px;
-  
+  background-color: white;
+  border-width: 0.5px;
+  border-radius: 3px;
 }
 #Email-field1{
   position: absolute;
-  bottom: 65%;
+  bottom: 55%;
   left: 40%;
   font-weight: bold;
   font-family: 'Rubik',sans-serif;
+  
 }
 #Username-field{
   position: absolute;
-  bottom: 60%;
+  bottom: 50%;
   left: 70%;
   height: 25px;
   width: 250px;
-  
+  background-color: white;
+  color: #000000;
+  border-radius: 3px;
+  border-width: 0.5px;
 }
 #Username-field1{
   position: absolute;
-  bottom: 65%;
+  bottom: 55%;
   left: 70%;
   font-weight: bold;
   font-family: 'Rubik',sans-serif;
 }
  #password-field{
   position: absolute;
-  bottom: 20%;
+  bottom: 30%;
   left: 40%;
   height: 25px;
   width: 250px;
-  
+  background-color: white;
+  color: #000000;
+  border-radius: 3px;
+  border-width: 0.5px;
 }
  #password-field1{
   position: absolute;
-  bottom: 25%;
+  bottom: 35%;
   left: 40%;
   font-weight: bold;
   font-family: 'Rubik',sans-serif;
 } 
  #phone-field{
   position: absolute;
-  bottom: 20%;
+  bottom: 30%;
   left: 70%;
   height: 25px;
   width: 250px;
-  
+  background-color: white;
+  color: #000000;
+  border-width: 0.5px;
+  border-radius: 3px;
 }
 #phone-field1{
   position: absolute;
-  bottom: 25%;
+  bottom: 35%;
   left: 70%;
   font-weight: bold;
   font-family: 'Rubik',sans-serif;
